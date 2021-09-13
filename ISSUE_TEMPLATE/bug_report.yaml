@@ -1,0 +1,35 @@
+name: Bug Report
+description: Report a flaw in the application
+title: "bug: <description>"
+labels: 
+  - bug
+assignees:
+  - nicolas-mark
+  - richard-florian
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this bug!
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: Detail a procedure for emulating the issue.
+      placeholder: |
+        - [] Start environment...
+        - [] Run '...'
+        - [] Encounter error
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: Provide a description of the expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Current Behavior
+      description: Briefly describe the existent functionality. 
+    validations:
+      required: true

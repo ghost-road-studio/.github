@@ -1,0 +1,59 @@
+name: Report an Issue
+description: Any unit of work to accomplish an improvement in the system.
+title: "fix: <description>"
+assignees: 
+  - nicolas-mark
+  - richard-florian
+body:
+  - type: markdown
+    value: "## Issue Report"
+  - type: markdown
+    attributes: 
+      value: |
+        Thanks for taking the time to report an issue. Please ensure no 
+        existing items on the project board address the problem.
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: Detail a procedure for emulating the issue.
+      placeholder: |
+        - [] Start environment...
+        - [] Run '...'
+        - [] Encounter error
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Impact on System
+      description: What aspects of the system does the issue affect?
+      multiple: true
+      options:
+        - Backend
+        - CI/CD
+        - Reporting
+        - Security
+        - UI/UX
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: Provide a description of the expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Current Behavior
+      description: Briefly describe the existent functionality. 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Supplementary Information
+      description: |
+        Links? References? Anything providing more context to the issue.
+
+        Tip: You may attach images or log files.
+    validations:
+      required: false
+    

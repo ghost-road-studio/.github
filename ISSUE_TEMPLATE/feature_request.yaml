@@ -1,0 +1,56 @@
+name: Feature Request
+description: Request functional capabilities to enrich the experience
+title: "feat: <description>"
+labels: 
+  - enhancement
+assignees:
+  - nicolas-mark
+  - richard-florian
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to suggest improvements.
+  - type: dropdown
+    attributes:
+      label: Related Issues
+      description: Is your proposal related to a separate problem?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Benefits to System
+      description: What aspects of the system will this improve?
+      multiple: true
+      options:
+        - Security
+        - UI/UX
+        - Backend
+        - Infrastructure
+        - Reporting
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Proposed Feature
+      description: Briefly detail the solution you envision.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Alternatives
+      description: Share any other alternative approaches one might consider.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: |
+        Anything you care to add about the suggested feature? Links? References?
+        
+        If any related issues exist, you may want to link them here.
+    validations:
+      required: false
