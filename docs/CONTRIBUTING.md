@@ -1,16 +1,14 @@
-# Contributing
+# Contributing Guidelines
 
-When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change. 
+Thank you for your interest in contributing to our projects! We welcome contributions from everyone. Before you get started, please take a moment to read through this guide.
 
-Please note we have a code of conduct, please follow it in all your interactions with the project.
+## Getting Started
 
-## Pull Request Process
+Before making any changes, we encourage you to first discuss your proposed changes with the maintainers of the repository. This helps to ensure that your work aligns with the project's goals and that no one else is working on the same thing. You can reach out to us by:
 
-1. Ensure any install or build dependencies are removed before the end of the layer when doing a build.
-2. Update the README.md with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
-3. Increase the version numbers in any examples files and the README.md to the new version that this Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
-4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
+* **Opening an issue:** This is the preferred method for discussing new features, bug fixes, or other changes. Please check the existing issues first to avoid duplicates.
+* **Email:** You can also contact us directly via email at [devs@ghostroad.studio](mailto:devs@ghostroad.studio).
 
 ## Code of Conduct
 
-We are committed to fostering an open and welcoming environment for everyone. For more information on what that means, check out the [CODE_OF_CONDUCT](./CODE_OF_CONDUCT.md).
+We are committed to providing a friendly, safe, and welcoming environment for all, regardless of level of experience, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, religion, nationality, or other similar characteristics. Please review our [Code of Conduct](CODE_OF_CONDUCT.md).
