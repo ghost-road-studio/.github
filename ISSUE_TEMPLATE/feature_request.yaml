@@ -4,8 +4,7 @@ title: "feat: <description>"
 labels: 
   - enhancement
 assignees:
-  - nicolas-mark
-  - richard-florian
+  - ghost-road-studio/devs
 body:
   - type: markdown
     attributes:
