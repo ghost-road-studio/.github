@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-The security of Search Surgeon is of utmost importance to us. If you believe you have found a security vulnerability, we encourage you to report it to us responsibly.
+If you believe you have found a security vulnerability, we encourage you to report it to us responsibly.
 
 **To report a security issue, please contact the maintainers of this repository directly at:**
 
